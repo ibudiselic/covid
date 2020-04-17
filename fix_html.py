@@ -1,9 +1,13 @@
 """Removes input cells from the generated HTML and adds a usable TOC.
 """
 
+import sys
+
 from bs4 import BeautifulSoup
 
-with open('analyze.html') as fin:
+fname = sys.argv[1]
+
+with open(fname) as fin:
     soup = BeautifulSoup(fin, features='lxml')
 
 # Remove input cells.
@@ -53,5 +57,5 @@ for h in soup.select('h1,h2,h3'):
         toc_h2_ul.append(new_entry)
         h2_level += 1
 
-with open('analyze.html', 'w', encoding='utf-8') as fout:
+with open(fname, 'w', encoding='utf-8') as fout:
     fout.write(str(soup))
