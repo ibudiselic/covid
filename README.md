@@ -1,5 +1,7 @@
 Simple analysis of Covid data from https://github.com/CSSEGISandData/COVID-19.
 
+I used the country population data from https://www.worldometers.info/world-population/population-by-country/
+
 If you see this by some chance, please don't read too much into it:
 
 1. I'm not a data analyst - not even close.
