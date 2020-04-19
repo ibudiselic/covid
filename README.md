@@ -1,7 +1,5 @@
 Simple analysis of Covid data from https://github.com/CSSEGISandData/COVID-19.
 
-I used the country population data from https://www.worldometers.info/world-population/population-by-country/
-
 If you see this by some chance, please don't read too much into it:
 
 1. I'm not a data analyst - not even close.
@@ -13,10 +11,12 @@ If you see this by some chance, please don't read too much into it:
 I'm making no guarantees on the correctness of any of this. Listen to your
 local authorities for authoritative information.
 
-I usually update this once per day, morning time in Europe.
-
 If you just want to look at the results (as opposed to the code), see:
 https://ibudiselic.github.io/covid/analyze.html
+
+I usually update this once per day, morning time in Europe.
+
+The country population data comes from https://www.worldometers.info/world-population/population-by-country/
 
 To run the notebook, use:
 

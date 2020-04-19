@@ -13,6 +13,13 @@ def fix(fname, all_fnames):
     for indiv in soup.select('div.input'):
         indiv.decompose()
 
+    other_analyses_links_html = []
+    for other_fname in all_fnames:
+        if other_fname == fname:
+            continue
+        other_analyses_links_html.append(f'<li><a href="{other_fname}">{other_fname.split(".")[0].title()}</a></li>')
+
+    other_analyses = BeautifulSoup(f'<div><h2>Other analyses</h2><ul>{"".join(other_analyses_links_html)}</ul></div>', features='lxml').div
     toc = BeautifulSoup('<div style="margin-top: 40px;"><h1 id="fixhtmltoc">Table of Contents</h1><ul></ul></div>', features='lxml').div
     toc_ul = toc.ul
 
@@ -25,8 +32,9 @@ def fix(fname, all_fnames):
         if len(anchors) == 1:
             anchors[0].decompose()
         if h1_level == -1 and h.name == 'h1':
-            # This is the README warning - don't include it in the ToC, but put the ToC after it.
+            # This is the README warning - don't include it in the ToC, but put cross-links and the ToC after it.
             h.insert_after(toc)
+            h.insert_after(other_analyses)
             h1_level = 0
             continue
 

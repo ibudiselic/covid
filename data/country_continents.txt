@@ -1,0 +1,263 @@
+Asia	Afghanistan
+Europe	Albania
+Antarctica	Antarctica (the territory South of 60 deg S)
+Africa	Algeria
+Oceania	American Samoa
+Europe	Andorra
+Africa	Angola
+North America	Antigua and Barbuda
+Europe	Azerbaijan
+Asia	Azerbaijan
+South America	Argentina
+Oceania	Australia
+Europe	Austria
+North America	Bahamas
+Asia	Bahrain
+Asia	Bangladesh
+Asia	Armenia
+Europe	Armenia
+North America	Barbados
+Europe	Belgium
+North America	Bermuda
+Asia	Bhutan
+South America	Bolivia
+Europe	Bosnia and Herzegovina
+Africa	Botswana
+Antarctica	Bouvet Island (Bouvetoya)
+South America	Brazil
+North America	Belize
+Asia	British Indian Ocean Territory (Chagos Archipelago)
+Oceania	Solomon Islands
+North America	British Virgin Islands
+Asia	Brunei
+Europe	Bulgaria
+Asia	Myanmar
+Africa	Burundi
+Europe	Belarus
+Asia	Cambodia
+Africa	Cameroon
+North America	Canada
+Africa	Cabo Verde
+North America	Cayman Islands
+Africa	Central African Republic
+Asia	Sri Lanka
+Africa	Chad
+South America	Chile
+Asia	China
+Asia	Taiwan*
+Asia	Christmas Island
+Asia	Cocos (Keeling) Islands
+South America	Colombia
+Africa	Comoros
+Africa	Mayotte
+Africa	Congo (Brazzaville)
+Africa	Congo (Kinshasa)
+Oceania	Cook Islands
+North America	Costa Rica
+Europe	Croatia
+North America	Cuba
+Europe	Cyprus
+Asia	Cyprus
+Europe	Czechia
+Africa	Benin
+Europe	Denmark
+North America	Dominica
+North America	Dominican Republic
+South America	Ecuador
+North America	El Salvador
+Africa	Equatorial Guinea
+Africa	Ethiopia
+Africa	Eritrea
+Europe	Estonia
+Europe	Faroe Islands
+South America	Falkland Islands (Malvinas)
+Antarctica	South Georgia and the South Sandwich Islands
+Oceania	Fiji
+Europe	Finland
+Europe	Åland Islands
+Europe	France
+South America	French Guiana
+Oceania	French Polynesia
+Antarctica	French Southern Territories
+Africa	Djibouti
+Africa	Gabon
+Europe	Georgia
+Asia	Georgia
+Africa	Gambia
+Asia	Palestinian Territory
+Europe	Germany
+Africa	Ghana
+Europe	Gibraltar
+Oceania	Kiribati
+Europe	Greece
+North America	Greenland
+North America	Grenada
+North America	Guadeloupe
+Oceania	Guam
+North America	Guatemala
+Africa	Guinea
+South America	Guyana
+North America	Haiti
+Antarctica	Heard Island and McDonald Islands
+Europe	Holy See
+North America	Honduras
+Asia	Hong Kong
+Europe	Hungary
+Europe	Iceland
+Asia	India
+Asia	Indonesia
+Asia	Iran
+Asia	Iraq
+Europe	Ireland
+Asia	Israel
+Europe	Italy
+Africa	Cote d'Ivoire
+North America	Jamaica
+Asia	Japan
+Europe	Kazakhstan
+Asia	Kazakhstan
+Asia	Jordan
+Africa	Kenya
+Asia	Korea, North
+Asia	Korea, South
+Asia	Kuwait
+Asia	Kyrgyzstan
+Asia	Laos
+Asia	Lebanon
+Africa	Lesotho
+Europe	Latvia
+Africa	Liberia
+Africa	Libya
+Europe	Liechtenstein
+Europe	Lithuania
+Europe	Luxembourg
+Asia	Macao
+Africa	Madagascar
+Africa	Malawi
+Asia	Malaysia
+Asia	Maldives
+Africa	Mali
+Europe	Malta
+North America	Martinique
+Africa	Mauritania
+Africa	Mauritius
+North America	Mexico
+Europe	Monaco
+Asia	Mongolia
+Europe	Moldova
+Europe	Montenegro
+North America	Montserrat
+Africa	Morocco
+Africa	Mozambique
+Asia	Oman
+Africa	Namibia
+Oceania	Nauru
+Asia	Nepal
+Europe	Netherlands
+North America	Netherlands Antilles
+North America	Curaçao
+North America	Aruba
+North America	Sint Maarten (Netherlands)
+North America	Bonaire
+Oceania	New Caledonia
+Oceania	Vanuatu
+Oceania	New Zealand
+North America	Nicaragua
+Africa	Niger
+Africa	Nigeria
+Oceania	Niue
+Oceania	Norfolk Island
+Europe	Norway
+Oceania	Northern Mariana Islands
+Oceania	United States Minor Outlying Islands
+North America	United States Minor Outlying Islands
+Oceania	Micronesia
+Oceania	Marshall Islands
+Oceania	Palau
+Asia	Pakistan
+North America	Panama
+Oceania	Papua New Guinea
+South America	Paraguay
+South America	Peru
+Asia	Philippines
+Oceania	Pitcairn Islands
+Europe	Poland
+Europe	Portugal
+Africa	Guinea-Bissau
+Asia	Timor-Leste
+North America	Puerto Rico
+Asia	Qatar
+Africa	Reunion
+Europe	Romania
+Europe	Russia
+Asia	Russian Federation
+Africa	Rwanda
+North America	Saint Barthelemy
+Africa	Saint Helena
+North America	Saint Kitts and Nevis
+North America	Anguilla
+North America	Saint Lucia
+North America	Saint Martin
+North America	Saint Pierre and Miquelon
+North America	Saint Vincent and the Grenadines
+Europe	San Marino
+Africa	Sao Tome and Principe
+Asia	Saudi Arabia
+Africa	Senegal
+Europe	Serbia
+Africa	Seychelles
+Africa	Sierra Leone
+Asia	Singapore
+Europe	Slovakia
+Asia	Vietnam
+Europe	Slovenia
+Africa	Somalia
+Africa	South Africa
+Africa	Zimbabwe
+Europe	Spain
+Africa	South Sudan
+Africa	Western Sahara
+Africa	Sudan
+South America	Suriname
+Europe	Svalbard & Jan Mayen Islands
+Africa	Swaziland
+Europe	Sweden
+Europe	Switzerland
+Asia	Syria
+Asia	Tajikistan
+Asia	Thailand
+Africa	Togo
+Oceania	Tokelau
+Oceania	Tonga
+North America	Trinidad and Tobago
+Asia	United Arab Emirates
+Africa	Tunisia
+Europe	Turkey
+Asia	Turkey
+Asia	Turkmenistan
+North America	Turks and Caicos Islands
+Oceania	Tuvalu
+Africa	Uganda
+Europe	Ukraine
+Europe	North Macedonia
+Africa	Egypt
+Europe	United Kingdom
+Europe	Guernsey
+Europe	Jersey
+Europe	Isle of Man
+Africa	Tanzania
+North America	US
+North America	United States Virgin Islands
+Africa	Burkina Faso
+South America	Uruguay
+Asia	Uzbekistan
+South America	Venezuela
+Oceania	Wallis and Futuna
+Oceania	Samoa
+Asia	Yemen
+Africa	Zambia
+Oceania	Disputed Territory
+Asia	Iraq-Saudi Arabia Neutral Zone
+Asia	United Nations Neutral Zone
+Asia	Spratly Islands
+Europe	Kosovo
