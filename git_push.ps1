@@ -1,5 +1,5 @@
 git add .
-git commit -m "Add more analyses."
+git commit -m "Update data."
 git push origin master
 git checkout gh-pages
 git merge master
