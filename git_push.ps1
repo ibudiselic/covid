@@ -1,5 +1,5 @@
 git add .
-git commit -m "Set up Binder and add a Binder sandbox. Also more impl. consolidation."
+git commit -m "Fix README."
 git push origin master
 git checkout gh-pages
 git merge master
