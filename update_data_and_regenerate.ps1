@@ -7,6 +7,7 @@ $fnames = @("analyze", "croatia-nordics-and-some", "europe", "north_america", "a
 ForEach ($fname in $fnames) {
   jupyter nbconvert --to notebook --inplace --execute "$fname.ipynb"
   jupyter nbconvert "$fname.ipynb" --to html --output "$fname.html"
+  jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to notebook --inplace "$fname.ipynb"
 }
 
 $htmls = $fnames -replace "$",".html"
