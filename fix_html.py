@@ -14,6 +14,8 @@ def fix(fname, all_fnames):
         indiv.decompose()
 
     other_analyses_links_html = []
+    binder_url = 'https://mybinder.org/v2/gh/ibudiselic/covid/master?filepath=binder_sandbox.ipynb'
+    other_analyses_links_html.append(f'<li><a href="{binder_url}">Binder sandbox (takes a few minutes to load)</a></li>')
     for other_fname in all_fnames:
         if other_fname == fname:
             continue
