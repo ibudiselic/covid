@@ -1,5 +1,5 @@
 git add .
-git commit -m "Add requirements.txt for Binder."
+git commit -m "Update Binder requirements."
 git push origin master
 git checkout gh-pages
 git merge master
