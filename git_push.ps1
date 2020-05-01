@@ -1,5 +1,5 @@
 git add .
-git commit -m "Stremline cross-country comparison code; add cross-country active comparison."
+git commit -m "Add requirements.txt for Binder."
 git push origin master
 git checkout gh-pages
 git merge master
