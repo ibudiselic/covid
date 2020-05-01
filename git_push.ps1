@@ -1,5 +1,5 @@
 git add .
-git commit -m "Update data."
+git commit -m "Stremline cross-country comparison code; add cross-country active comparison."
 git push origin master
 git checkout gh-pages
 git merge master
