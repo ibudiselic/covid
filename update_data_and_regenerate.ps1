@@ -5,7 +5,7 @@ Invoke-WebRequest -OutFile data/recovered.csv https://raw.githubusercontent.com/
 $fnames = @("analyze", "croatia-nordics-and-some", "europe", "north_america", "asia", "south_america", "africa")
 
 ForEach ($fname in $fnames) {
-  jupyter nbconvert --to notebook --inplace --execute "$fname.ipynb"
+  jupyter nbconvert --to notebook --inplace --execute "$fname.ipynb" --ExecutePreprocessor.timeout=300
   jupyter nbconvert "$fname.ipynb" --to html --output "$fname.html"
   jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to notebook --inplace "$fname.ipynb"
 }
