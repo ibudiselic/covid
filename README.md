@@ -28,14 +28,18 @@ If you just want to look at the results for some fixed sets of countries, see ht
 
 ### Run locally
 
-Use:
+Running this locally requires Python3. Install the dependencies using:
+
+$ pip install -r requirements_for_update_and_regenerate_data.txt
+
+or similar (e.g. create a virtual environment). YMMV - e.g. on Windows, you may need to install some MSVC tools which are needed to build some of the libraries.
+
+To run a notebook, use:
 
 $ jupyter notebook analyze.ipynb
 
-Requires some version of matplotlib, numpy and scipy (see requirements.txt).
-
 ## Other information
 
-I usually update the data once per day, morning time in Europe.
+I created this in the first weeks of the Covid pandemic. I've since removed/disabled some of the features that don't work anymore like curve fitting, and am using this to occasionally get an update on the numbers.
 
 The country population data comes from https://www.worldometers.info/world-population/population-by-country/
