@@ -6,7 +6,8 @@ import sys
 from bs4 import BeautifulSoup
 
 def fix(fname, all_fnames):
-    with open(fname) as fin:
+    print('fixing', fname, '...')
+    with open(fname, encoding='utf-8') as fin:
         soup = BeautifulSoup(fin, features='lxml')
 
     # Remove input cells.
