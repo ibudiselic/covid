@@ -2,7 +2,7 @@ Invoke-WebRequest -OutFile data/confirmed.csv https://raw.githubusercontent.com/
 Invoke-WebRequest -OutFile data/dead.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
 Invoke-WebRequest -OutFile data/recovered.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv
 
-$fnames = @("analyze", "croatia-nordics-and-some", "europe", "north_america", "asia", "south_america", "africa")
+$fnames = @("analyze", "croatia-and-switzerland", "croatia-nordics-and-some", "europe", "north_america", "asia", "south_america", "africa")
 
 ForEach ($fname in $fnames) {
   jupyter nbconvert --to notebook --inplace --execute "$fname.ipynb" --ExecutePreprocessor.timeout=300
