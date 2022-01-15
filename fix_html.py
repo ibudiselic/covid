@@ -10,8 +10,8 @@ def fix(fname, all_fnames):
     with open(fname, encoding='utf-8') as fin:
         soup = BeautifulSoup(fin, features='lxml')
 
-    # Remove input cells.
-    for indiv in soup.select('div.input'):
+    # Remove input cells, but skip the first one which is the README warning...
+    for indiv in soup.select('div.jp-Cell-inputWrapper')[1:]:
         indiv.decompose()
 
     other_analyses_links_html = []
